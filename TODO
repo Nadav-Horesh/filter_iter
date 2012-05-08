@@ -1,0 +1,15 @@
+04 Apr 2012
+===========
+* cython callbak: Is it possible to to automatic dtype inference without a
+  significan speed penalty?
+* callback call loop with prange.
+* Initialisation code for the C callback (similar to to the cython callback
+  class __init__ method)
+* Extend to support all non-complex dtypes
+
+
+Distant dreams
+==============
+* Enable output dtype different from the input's
+* Bypass the ugly use of ctypes and the assumption of pointer == unsigned
+  long

@@ -1,0 +1,8 @@
+0.0.1
+
+* Added a cython convolution kernel (need help to make it operational, see
+  demo/example_not_working.py)
+* C kernel: The C kernel can ow be called directly, no need to provide
+  a pointer to a kernel function.
+* The data for the kernel is now copied with using python --- opens the way
+  to run kernel in a parallel loop.
